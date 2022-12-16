@@ -1,0 +1,862 @@
+INFO:root:Training model ESMForSingleMutationPosOuter
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Kernel.poll_control_queue() running at /ayb/vol2/home/dumerenkov/anaconda3/lib/python3.9/site-packages/ipykernel/kernelbase.py:279> wait_for=<Future finished result=<Future at 0x...state=pending>> cb=[_chain_future.<locals>._call_set_state() at /ayb/vol2/home/dumerenkov/anaconda3/lib/python3.9/asyncio/futures.py:391]>
+INFO:root:Train on ['case_study_dimer_train.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.9123124756009715
+INFO:root:Training loss epoch: 1.2109936478433865
+INFO:root:Training loss epoch: 0.6805701962312241
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 3.3027902530504623
+INFO:root:MAE 1.2831569026496743 Correlation SpearmanrResult(correlation=0.3983232720348905, pvalue=1.2789915842032552e-12)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.378386109192065
+INFO:root:Training loss epoch: 1.1283486406070444
+INFO:root:Training loss epoch: 0.4139395666066964
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 3.0144297809357785
+INFO:root:MAE 1.2396256584851515 Correlation SpearmanrResult(correlation=0.4416453513878692, pvalue=1.8201931640390762e-15)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.563604267713386
+INFO:root:Training loss epoch: 0.8114179655507724
+INFO:root:Training loss epoch: 0.2786555197036334
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 3.2544606351189316
+INFO:root:MAE 1.2477871532849714 Correlation SpearmanrResult(correlation=0.4632597759061648, pvalue=4.7895875917078477e-17)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.5726179599852017
+INFO:root:Training loss epoch: 0.7540520363988074
+INFO:root:Training loss epoch: 0.22946237658203378
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 3.1774104837856063
+INFO:root:MAE 1.2772595460216205 Correlation SpearmanrResult(correlation=0.45113609098556734, pvalue=3.8036386641674136e-16)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.6964618009704213
+INFO:root:Training loss epoch: 2.0135490355644343
+INFO:root:Training loss epoch: 0.9192489028179206
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 2.7259615555004797
+INFO:root:MAE 1.100815226076817 Correlation SpearmanrResult(correlation=0.5611278481815803, pvalue=8.710155334866389e-26)
+INFO:root:
+INFO:root:Ensemble result for dataset case_study_dimer_test.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.4844421055503768, pvalue=1.0463732720709288e-18)
+INFO:root:RMSE 1.7082840170219695
+INFO:root:MAE 1.188216896606039
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['case_study_gem_train.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.8276921631165703
+INFO:root:Training loss epoch: 1.1707187738147649
+INFO:root:Training loss epoch: 0.6683802243461849
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.8338234445914476
+INFO:root:MAE 1.0049475142585982 Correlation SpearmanrResult(correlation=0.6947975744015846, pvalue=2.3593872408521477e-56)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.6594365613255095
+INFO:root:Training loss epoch: 1.413150979012472
+INFO:root:Training loss epoch: 0.6554829243217545
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.7488326789132327
+INFO:root:MAE 0.9109741500847003 Correlation SpearmanrResult(correlation=0.6872549711443429, pvalue=1.0565707971258611e-54)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.6844624936970796
+INFO:root:Training loss epoch: 0.8488987985026017
+INFO:root:Training loss epoch: 0.28458167104419024
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.8444225693919365
+INFO:root:MAE 0.9324004733983758 Correlation SpearmanrResult(correlation=0.6889763501510423, pvalue=4.482657730792506e-55)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.7143749870237333
+INFO:root:Training loss epoch: 0.809633642777861
+INFO:root:Training loss epoch: 0.28420169169935977
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.632332775614114
+INFO:root:MAE 0.8913090703618854 Correlation SpearmanrResult(correlation=0.7124944002020521, pvalue=1.9508516034143003e-60)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.706003970593326
+INFO:root:Training loss epoch: 2.2554401153961727
+INFO:root:Training loss epoch: 1.091352912143215
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.9767783287780607
+INFO:root:MAE 1.013100451597193 Correlation SpearmanrResult(correlation=0.5654411422584238, pvalue=1.1673613588414258e-33)
+INFO:root:
+INFO:root:Ensemble result for dataset case_study_gem_test.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.7059887457632134, pvalue=6.705794038773218e-59)
+INFO:root:RMSE 1.275946881873714
+INFO:root:MAE 0.8914893178322902
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['case_study_transmembrane_train.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.73854170745289
+INFO:root:Training loss epoch: 1.0031658091651414
+INFO:root:Training loss epoch: 0.4831715520125363
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 8.256178072576315
+INFO:root:MAE 1.7025587545527565 Correlation SpearmanrResult(correlation=0.4912771586507378, pvalue=6.895471036190568e-09)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.606888530447311
+INFO:root:Training loss epoch: 1.2067055215606606
+INFO:root:Training loss epoch: 0.5007499822470715
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 7.9610354767349145
+INFO:root:MAE 1.5614026503697518 Correlation SpearmanrResult(correlation=0.4783762273257624, pvalue=1.917262424800894e-08)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.5747445313404835
+INFO:root:Training loss epoch: 0.7935737591408032
+INFO:root:Training loss epoch: 0.2892099895851237
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 7.956040864043556
+INFO:root:MAE 1.5689222612117808 Correlation SpearmanrResult(correlation=0.5151245254839504, pvalue=9.279710564128567e-10)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.542018672553999
+INFO:root:Training loss epoch: 0.7400072407488824
+INFO:root:Training loss epoch: 0.2272406960241387
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 7.824627121048342
+INFO:root:MAE 1.609530602401543 Correlation SpearmanrResult(correlation=0.5069823665823374, pvalue=1.872770266722951e-09)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.4202947875614926
+INFO:root:Training loss epoch: 1.8754931082682915
+INFO:root:Training loss epoch: 0.7888388640090701
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 6.885054391625002
+INFO:root:MAE 1.5495734014510807 Correlation SpearmanrResult(correlation=0.6075617914060106, pvalue=7.324208252204633e-14)
+INFO:root:
+INFO:root:Ensemble result for dataset case_study_transmembrane_test.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.5243210420322737, pvalue=4.1047609643238905e-10)
+INFO:root:RMSE 2.761143395233266
+INFO:root:MAE 1.5470435825995204
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['new_ds_for_ssym_plus_less_strict.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.887966944424798
+INFO:root:Training loss epoch: 1.1277744225672752
+INFO:root:Training loss epoch: 0.6339276116247113
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 1.032533456622503
+INFO:root:MAE 0.6637524276209826 Correlation SpearmanrResult(correlation=0.7982179766438976, pvalue=4.7710703484063353e-79)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 1.122744734863855
+INFO:root:MAE 0.6876039664599706 Correlation SpearmanrResult(correlation=0.7702001674434901, pvalue=2.411377193164472e-70)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.7230692163010017
+INFO:root:Training loss epoch: 1.4162301179703687
+INFO:root:Training loss epoch: 0.6666081770769708
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 1.2307226826611255
+INFO:root:MAE 0.6371793622278016 Correlation SpearmanrResult(correlation=0.7687037380039298, pvalue=6.488370776042696e-70)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 1.2647525592482998
+INFO:root:MAE 0.6472196955953471 Correlation SpearmanrResult(correlation=0.7670739326907773, pvalue=1.8907856982327798e-69)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.6335208803053343
+INFO:root:Training loss epoch: 0.8226303161747048
+INFO:root:Training loss epoch: 0.3203666027538449
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 0.8460781673158148
+INFO:root:MAE 0.5702652717220851 Correlation SpearmanrResult(correlation=0.8260842247176682, pvalue=3.4471564853208504e-89)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 0.8471709126972781
+INFO:root:MAE 0.5699275446029126 Correlation SpearmanrResult(correlation=0.8260551874027079, pvalue=3.539613979216379e-89)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.720305950589284
+INFO:root:Training loss epoch: 0.8854497128689157
+INFO:root:Training loss epoch: 0.2667146521683649
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 0.8719725989725174
+INFO:root:MAE 0.585322060003157 Correlation SpearmanrResult(correlation=0.8068251911658286, pvalue=5.294406119671486e-82)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 0.8741762444130953
+INFO:root:MAE 0.5844349030706905 Correlation SpearmanrResult(correlation=0.8068979908796391, pvalue=4.9910656437014966e-82)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.7996931759409525
+INFO:root:Training loss epoch: 2.085740666177315
+INFO:root:Training loss epoch: 0.8299684753570367
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 1.263123997062746
+INFO:root:MAE 0.7240323467148383 Correlation SpearmanrResult(correlation=0.7264613256169737, pvalue=5.59776644598132e-59)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 1.2704987184002432
+INFO:root:MAE 0.7257374130448707 Correlation SpearmanrResult(correlation=0.7267766075533441, pvalue=4.721239505108709e-59)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym_plus.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.822061111610795, pvalue=1.2883056792214322e-87)
+INFO:root:RMSE 0.948738760669825
+INFO:root:MAE 0.575835901658601
+INFO:root:Ensemble result for dataset ssym_plus_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.8176045030436134, pvalue=6.401852494897277e-86)
+INFO:root:RMSE 0.958173557258986
+INFO:root:MAE 0.5828834487781438
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['new_ds_for_ssym_plus.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.7130997049624765
+INFO:root:Training loss epoch: 1.2437882518707042
+INFO:root:Training loss epoch: 0.6764609364546686
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.2079566648914746
+INFO:root:MAE 1.1047746817031028 Correlation SpearmanrResult(correlation=0.4729456114603696, pvalue=5.104790504826918e-21)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.207643523211242
+INFO:root:MAE 1.0969408772123808 Correlation SpearmanrResult(correlation=0.4713886382857223, pvalue=7.131500332582863e-21)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.224889367317601
+INFO:root:Training loss epoch: 1.2282406408149142
+INFO:root:Training loss epoch: 0.6037395858440389
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.420159069341253
+INFO:root:MAE 1.1146621339827438 Correlation SpearmanrResult(correlation=0.4471983206173707, pvalue=1.0383358197832134e-18)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.4437612956216723
+INFO:root:MAE 1.1216898300388658 Correlation SpearmanrResult(correlation=0.450029252399593, pvalue=5.915438539948681e-19)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.548827588218051
+INFO:root:Training loss epoch: 0.8116116410842268
+INFO:root:Training loss epoch: 0.26489713061213827
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.298752488174552
+INFO:root:MAE 1.0799023640548429 Correlation SpearmanrResult(correlation=0.4183035774973211, pvalue=2.4207352641811564e-16)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.3096391142011856
+INFO:root:MAE 1.0829248955547386 Correlation SpearmanrResult(correlation=0.41787090774265157, pvalue=2.616397868963453e-16)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.5791860630906758
+INFO:root:Training loss epoch: 0.7981091625568654
+INFO:root:Training loss epoch: 0.2555297883172886
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.335889396271755
+INFO:root:MAE 1.089178744974726 Correlation SpearmanrResult(correlation=0.41470817991128545, pvalue=4.602389919017112e-16)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.335206675178796
+INFO:root:MAE 1.0890404545604147 Correlation SpearmanrResult(correlation=0.4148115307337271, pvalue=4.518653728689842e-16)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.2084164393844126
+INFO:root:Training loss epoch: 1.8739451089060102
+INFO:root:Training loss epoch: 0.9864592131055664
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.6653603827364183
+INFO:root:MAE 1.1743406621667831 Correlation SpearmanrResult(correlation=0.5114712475324034, pvalue=7.380950370075936e-25)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.660308558670337
+INFO:root:MAE 1.1729032466722524 Correlation SpearmanrResult(correlation=0.5120451129512876, pvalue=6.414395063545518e-25)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym_plus.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.4799914952928524, pvalue=1.1003361878914673e-21)
+INFO:root:RMSE 1.4664165840840269
+INFO:root:MAE 1.020690867614361
+INFO:root:Ensemble result for dataset ssym_plus_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.4782053563787761, pvalue=1.6290429839343019e-21)
+INFO:root:RMSE 1.477250284578538
+INFO:root:MAE 1.031138822847755
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['new_ds_for_s669.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.801900834678947
+INFO:root:Training loss epoch: 1.1107696120358934
+INFO:root:Training loss epoch: 0.6771329606098111
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.21692574192476
+INFO:root:MAE 1.0273641711922281 Correlation SpearmanrResult(correlation=0.4755512162430585, pvalue=4.759447552575307e-39)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.2212275886227015
+INFO:root:MAE 1.0253068955840685 Correlation SpearmanrResult(correlation=0.48384784577796613, pvalue=1.4881264576426945e-40)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.734753375777965
+INFO:root:Training loss epoch: 1.357406922194281
+INFO:root:Training loss epoch: 0.5932846430035646
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.270781531704109
+INFO:root:MAE 1.07009403895648 Correlation SpearmanrResult(correlation=0.4594793643172295, pvalue=3.0058672034159284e-36)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.269024833332359
+INFO:root:MAE 1.0670981308297771 Correlation SpearmanrResult(correlation=0.46130398820923985, pvalue=1.4705573218208407e-36)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.6545437395419613
+INFO:root:Training loss epoch: 0.8757070987005219
+INFO:root:Training loss epoch: 0.2939065892452242
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1503275832641293
+INFO:root:MAE 1.0043634110463084 Correlation SpearmanrResult(correlation=0.4851734705612873, pvalue=8.478916617691121e-41)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1513216084064415
+INFO:root:MAE 1.0045155139628836 Correlation SpearmanrResult(correlation=0.48528406657965023, pvalue=8.089286348642406e-41)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.7365483516067686
+INFO:root:Training loss epoch: 0.8176109490030061
+INFO:root:Training loss epoch: 0.25512407856948266
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.037529457137372
+INFO:root:MAE 0.9764918099186747 Correlation SpearmanrResult(correlation=0.5149593689759446, pvalue=1.40246633569392e-46)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.0335507831818616
+INFO:root:MAE 0.9758850056441398 Correlation SpearmanrResult(correlation=0.5148476307265532, pvalue=1.477966851005512e-46)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.9257320527252455
+INFO:root:Training loss epoch: 2.4270837883058967
+INFO:root:Training loss epoch: 0.980902684518612
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.373831088742664
+INFO:root:MAE 1.1061443969049116 Correlation SpearmanrResult(correlation=0.4850651790441223, pvalue=8.87845873728973e-41)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.368923744681124
+INFO:root:MAE 1.1052395336020888 Correlation SpearmanrResult(correlation=0.48469774135745736, pvalue=1.0378525800092624e-40)
+INFO:root:
+INFO:root:Ensemble result for dataset s669.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.5297494973515611, pvalue=1.1394173284162222e-49)
+INFO:root:RMSE 1.4178891917858631
+INFO:root:MAE 0.9772958221210525
+INFO:root:Ensemble result for dataset s669_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.5321208290842997, pvalue=3.5228146132831796e-50)
+INFO:root:RMSE 1.417672399989361
+INFO:root:MAE 0.9761773087209583
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['new_ds_for_ssym.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.83136556250598
+INFO:root:Training loss epoch: 1.3944265772418423
+INFO:root:Training loss epoch: 0.8218265196054796
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.0227263673584024
+INFO:root:MAE 1.0619434799497935 Correlation SpearmanrResult(correlation=0.4652838711780102, pvalue=8.940080006170647e-20)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.0466615599046385
+INFO:root:MAE 1.0555555473424887 Correlation SpearmanrResult(correlation=0.4589281974764623, pvalue=3.225518269598484e-19)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.245199878153473
+INFO:root:Training loss epoch: 1.1832933416639957
+INFO:root:Training loss epoch: 0.5233715905695103
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.375727756243668
+INFO:root:MAE 1.0850497299685464 Correlation SpearmanrResult(correlation=0.39565415492125483, pvalue=2.902301905752521e-14)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.3905044247336655
+INFO:root:MAE 1.087315903224966 Correlation SpearmanrResult(correlation=0.38558849155399, pvalue=1.4410522665909154e-13)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.6363894144732813
+INFO:root:Training loss epoch: 0.867245994780611
+INFO:root:Training loss epoch: 0.2696402060547171
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.015079831664541
+INFO:root:MAE 1.0122030851028163 Correlation SpearmanrResult(correlation=0.4460980103639531, pvalue=3.9691021292805155e-18)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.0053090963950537
+INFO:root:MAE 1.0099975024595071 Correlation SpearmanrResult(correlation=0.4459656661421062, pvalue=4.070976703899709e-18)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.4502117376246497
+INFO:root:Training loss epoch: 0.8384327471759656
+INFO:root:Training loss epoch: 0.28660275934210194
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.1673560304988477
+INFO:root:MAE 1.0483572279211686 Correlation SpearmanrResult(correlation=0.4147816462315722, pvalue=1.1841346051375432e-15)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.1664311499047715
+INFO:root:MAE 1.0482277066456371 Correlation SpearmanrResult(correlation=0.41452581074602934, pvalue=1.2375912926564402e-15)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.1700726572938813
+INFO:root:Training loss epoch: 1.760548085161605
+INFO:root:Training loss epoch: 0.8874132283093079
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.253980371283002
+INFO:root:MAE 1.0877080950804316 Correlation SpearmanrResult(correlation=0.4639305689820506, pvalue=1.1775342055341341e-19)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.2787258514972937
+INFO:root:MAE 1.095067030796509 Correlation SpearmanrResult(correlation=0.4635672975975935, pvalue=1.2676414195290686e-19)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.46259902405612247, pvalue=1.5422856601906508e-19)
+INFO:root:RMSE 1.3966368523902704
+INFO:root:MAE 0.9679196768098209
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.4603749809084883, pvalue=2.4141679051754135e-19)
+INFO:root:RMSE 1.4105934213364795
+INFO:root:MAE 0.9801565775935053
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['S3488.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 4.0406364872555125
+INFO:root:Training loss epoch: 2.2277719051685803
+INFO:root:Training loss epoch: 1.3721330152904418
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.9226344686700798
+INFO:root:MAE 1.044619430074392 Correlation SpearmanrResult(correlation=0.486087549067943, pvalue=1.1062553758614393e-21)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.9466887282911938
+INFO:root:MAE 1.03314999907076 Correlation SpearmanrResult(correlation=0.5076558175119267, pvalue=8.390754328650492e-24)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1828617994525596
+INFO:root:MAE 1.0314703170176713 Correlation SpearmanrResult(correlation=0.48223183769784705, pvalue=2.9444910121123533e-40)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1849832197736756
+INFO:root:MAE 1.0307954474698935 Correlation SpearmanrResult(correlation=0.49075326394431784, pvalue=7.73081078396807e-42)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 4.710820384521625
+INFO:root:Training loss epoch: 3.2835079579978514
+INFO:root:Training loss epoch: 1.885008818750507
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.591287410446775
+INFO:root:MAE 1.1509527350770452 Correlation SpearmanrResult(correlation=0.3859640670497752, pvalue=1.3587434142719448e-13)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.460787450405603
+INFO:root:MAE 1.1164149599944988 Correlation SpearmanrResult(correlation=0.3930285776039357, pvalue=4.431685631327305e-14)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.5326378752786622
+INFO:root:MAE 1.1655280778131634 Correlation SpearmanrResult(correlation=0.3901565415884014, pvalue=9.484291517758613e-26)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.5001623755275646
+INFO:root:MAE 1.1551626328245272 Correlation SpearmanrResult(correlation=0.3789278895598735, pvalue=2.8664425197826875e-24)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 3.8734512955215448
+INFO:root:Training loss epoch: 1.6427199291610475
+INFO:root:Training loss epoch: 0.5623743914776187
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.0731593194027242
+INFO:root:MAE 1.060609342650189 Correlation SpearmanrResult(correlation=0.42715403037259103, pvalue=1.3374018157291846e-16)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.0763191681891087
+INFO:root:MAE 1.0614481456591394 Correlation SpearmanrResult(correlation=0.4271909427065754, pvalue=1.328548847618959e-16)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.2064251674757287
+INFO:root:MAE 1.0505313214369854 Correlation SpearmanrResult(correlation=0.47312904514780946, pvalue=1.2858385767473612e-38)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.207022565848738
+INFO:root:MAE 1.0506802000521622 Correlation SpearmanrResult(correlation=0.4731420505502224, pvalue=1.2790222750705885e-38)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 3.7046680491112705
+INFO:root:Training loss epoch: 1.346841830727591
+INFO:root:Training loss epoch: 0.3913323588455746
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.3243614472766936
+INFO:root:MAE 1.1427161868345754 Correlation SpearmanrResult(correlation=0.3800903543919597, pvalue=3.379704357892278e-13)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.3315994402113964
+INFO:root:MAE 1.1446903537337978 Correlation SpearmanrResult(correlation=0.3801248659237338, pvalue=3.3618366411909905e-13)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.3207874267738986
+INFO:root:MAE 1.0810036149783608 Correlation SpearmanrResult(correlation=0.4598287467379867, pvalue=2.6221775548151272e-36)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.3230234545660102
+INFO:root:MAE 1.0812655752162785 Correlation SpearmanrResult(correlation=0.4597855022720277, pvalue=2.6668989985346987e-36)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 4.5131446977225185
+INFO:root:Training loss epoch: 3.5830877375250614
+INFO:root:Training loss epoch: 2.041726038522766
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.666935525443467
+INFO:root:MAE 1.170561105151775 Correlation SpearmanrResult(correlation=0.3969073736750695, pvalue=2.3682276829520996e-14)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.652970592975414
+INFO:root:MAE 1.1672778027554245 Correlation SpearmanrResult(correlation=0.3981496387687993, pvalue=1.9342243422840587e-14)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.7312366895095344
+INFO:root:MAE 1.1878377447797122 Correlation SpearmanrResult(correlation=0.3937993367690678, pvalue=3.050196790966228e-26)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.7297729975852953
+INFO:root:MAE 1.1878161007344934 Correlation SpearmanrResult(correlation=0.39188545854370194, pvalue=5.545509870429029e-26)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.45754968685729375, pvalue=4.245595654516094e-19)
+INFO:root:RMSE 1.4243362110987263
+INFO:root:MAE 1.0074247758879125
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.4646403061354921, pvalue=1.0192927063575678e-19)
+INFO:root:RMSE 1.4248485805084035
+INFO:root:MAE 1.006039228826783
+INFO:root:Ensemble result for dataset s669.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.4973284919931282, pvalue=4.341806164330498e-43)
+INFO:root:RMSE 1.4561774188503451
+INFO:root:MAE 1.0235077736645892
+INFO:root:Ensemble result for dataset s669_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.49903532581520965, pvalue=2.0350424345016957e-43)
+INFO:root:RMSE 1.4570774057136753
+INFO:root:MAE 1.025250140801963
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['S2648.csv', 'ACDC_varibench.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.214290063280004
+INFO:root:Training loss epoch: 1.0127753924829008
+INFO:root:Training loss epoch: 0.5293081470368561
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.7910770634989777
+INFO:root:MAE 0.5660157916925804 Correlation SpearmanrResult(correlation=0.820957766990201, pvalue=9.426693017782245e-85)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 5.978271459680445
+INFO:root:MAE 1.7979021569528775 Correlation SpearmanrResult(correlation=-0.4054914419782579, pvalue=5.745693670964247e-15)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.808407723400909
+INFO:root:MAE 0.6411624119352939 Correlation SpearmanrResult(correlation=0.5904225935438653, pvalue=5.995273801534414e-14)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 1.8224771585498405
+INFO:root:MAE 1.0008687503813278 Correlation SpearmanrResult(correlation=0.6558891460348985, pvalue=2.4163618680744788e-06)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.215266773312747
+INFO:root:MAE 1.043509056140155 Correlation SpearmanrResult(correlation=0.4438142869737268, pvalue=1.1688226780562122e-33)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 4.2334582108901495
+INFO:root:MAE 1.5935872473875103 Correlation SpearmanrResult(correlation=0.11145229085160425, pvalue=0.0038977134495164286)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 2.6673714281576246
+INFO:root:Training loss epoch: 1.4365655206031016
+INFO:root:Training loss epoch: 0.9088949228072509
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.0904916941766467
+INFO:root:MAE 0.7223717173920912 Correlation SpearmanrResult(correlation=0.7525856209412666, pvalue=1.1643114114714432e-63)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 8.619943750571451
+INFO:root:MAE 2.287547954646816 Correlation SpearmanrResult(correlation=-0.6401542528278443, pvalue=7.906206622779014e-41)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7843488071153069
+INFO:root:MAE 0.5825646056501723 Correlation SpearmanrResult(correlation=0.6817349167081226, pvalue=1.223572462020541e-19)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 2.481977465155069
+INFO:root:MAE 1.2764914361316533 Correlation SpearmanrResult(correlation=0.38580284460985315, pvalue=0.011623592423681628)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.2479990469583457
+INFO:root:MAE 1.072985307777075 Correlation SpearmanrResult(correlation=0.40821940233056764, pvalue=2.9702051791360174e-28)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 6.141429411480312
+INFO:root:MAE 1.9820389404408467 Correlation SpearmanrResult(correlation=-0.24590332330694845, pvalue=1.1358786511219765e-10)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.8199777223335887
+INFO:root:Training loss epoch: 1.1256121564289472
+INFO:root:Training loss epoch: 0.49507126484123243
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.6425420863818164
+INFO:root:MAE 0.4915323688087669 Correlation SpearmanrResult(correlation=0.8732619440456618, pvalue=3.390674038649298e-108)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.683077164456067
+INFO:root:MAE 0.5173215344657152 Correlation SpearmanrResult(correlation=0.8731051416512969, pvalue=4.1254420464742415e-108)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.6859178034165548
+INFO:root:MAE 0.5408124309589168 Correlation SpearmanrResult(correlation=0.715999795520395, pvalue=2.399147852806732e-22)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 2.4414835792645837
+INFO:root:MAE 1.0931933050797809 Correlation SpearmanrResult(correlation=0.6251772623745048, pvalue=9.590297274406226e-06)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1352427799474376
+INFO:root:MAE 1.0171508720236508 Correlation SpearmanrResult(correlation=0.47784684003948924, pvalue=1.841941927018059e-39)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1821830392234207
+INFO:root:MAE 1.0293223185065203 Correlation SpearmanrResult(correlation=0.47722985493179243, pvalue=2.3789776646917215e-39)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.867482109723558
+INFO:root:Training loss epoch: 1.1651159450101283
+INFO:root:Training loss epoch: 0.5301613591534091
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.6632117915501824
+INFO:root:MAE 0.5094234059041921 Correlation SpearmanrResult(correlation=0.865070857054284, pvalue=6.832666470048684e-104)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.6665514764182243
+INFO:root:MAE 0.509339895437074 Correlation SpearmanrResult(correlation=0.8647658051234283, pvalue=9.758754492844556e-104)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7269569928264005
+INFO:root:MAE 0.5702765283605723 Correlation SpearmanrResult(correlation=0.6664517681993806, pvalue=1.5131669112840764e-18)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 2.797247819353028
+INFO:root:MAE 1.2048765939793415 Correlation SpearmanrResult(correlation=0.5738017102882526, pvalue=7.105776152463348e-05)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1048539125994212
+INFO:root:MAE 1.0148098915801431 Correlation SpearmanrResult(correlation=0.5001035923748967, pvalue=1.2637225610665687e-43)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1122196750661164
+INFO:root:MAE 1.0175818853548022 Correlation SpearmanrResult(correlation=0.4992286033287286, pvalue=1.867196712112789e-43)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.49209960151768
+INFO:root:Training loss epoch: 2.411342759103573
+INFO:root:Training loss epoch: 1.3706273884714821
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.0484014441804963
+INFO:root:MAE 0.7036215493194106 Correlation SpearmanrResult(correlation=0.7630393139657828, pvalue=2.0508696984435734e-66)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.3290101478880527
+INFO:root:MAE 0.8039580007377816 Correlation SpearmanrResult(correlation=0.7684247634740637, pvalue=6.867256756267657e-68)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.6790081907870623
+INFO:root:MAE 0.5871872401504374 Correlation SpearmanrResult(correlation=0.7321757911515472, pvalue=9.091010167478295e-24)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 3.3841563149873677
+INFO:root:MAE 1.2797159080704053 Correlation SpearmanrResult(correlation=0.5147279287884452, pvalue=0.000487364523258757)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.3623855777023772
+INFO:root:MAE 1.0958600180858387 Correlation SpearmanrResult(correlation=0.4324278066718474, pvalue=7.367543042223437e-32)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.8016693953079326
+INFO:root:MAE 1.2168451704499723 Correlation SpearmanrResult(correlation=0.43904342843707045, pvalue=6.762026104565121e-33)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.8641157879249698, pvalue=2.0796970620858456e-103)
+INFO:root:RMSE 0.8121920087960209
+INFO:root:MAE 0.506717117356779
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.716419186193518, pvalue=4.1740035222472604e-55)
+INFO:root:RMSE 1.4375230918385076
+INFO:root:MAE 1.048102738462628
+INFO:root:Ensemble result for dataset myoglobin.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.7328616374047953, pvalue=7.871684835124918e-24)
+INFO:root:RMSE 0.8223628523818907
+INFO:root:MAE 0.5479043887094108
+INFO:root:Ensemble result for dataset p53.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.5960860585906489, pvalue=3.109212039407412e-05)
+INFO:root:RMSE 1.5018755669519763
+INFO:root:MAE 1.1043731124362064
+INFO:root:Ensemble result for dataset s669.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.5122959868044268, pvalue=4.8685123799178036e-46)
+INFO:root:RMSE 1.4277697368418323
+INFO:root:MAE 0.990045621921552
+INFO:root:Ensemble result for dataset s669_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.43820122342533646, pvalue=9.191755793932951e-33)
+INFO:root:RMSE 1.7000254637373642
+INFO:root:MAE 1.2644455906715082
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['S2648.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 1.9349627193963639
+INFO:root:Training loss epoch: 0.7923790498747392
+INFO:root:Training loss epoch: 0.3602030993684402
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.9469707449604
+INFO:root:MAE 0.6717344856663057 Correlation SpearmanrResult(correlation=0.7839208283568253, pvalue=2.284852388394962e-72)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 6.187358555375928
+INFO:root:MAE 1.839288017772443 Correlation SpearmanrResult(correlation=-0.38784943997189736, pvalue=1.0102339463988657e-13)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.779727961745008
+INFO:root:MAE 0.6418305458639985 Correlation SpearmanrResult(correlation=0.6411328185158381, pvalue=7.152672252764088e-17)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 1.9806474907064824
+INFO:root:MAE 1.0000581553956467 Correlation SpearmanrResult(correlation=-0.05278673192667172, pvalue=0.5446818174863053)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 2.825870455119198
+INFO:root:Training loss epoch: 1.3731560229910895
+INFO:root:Training loss epoch: 0.9292950831908681
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.5085607786565152
+INFO:root:MAE 0.9100083217068374 Correlation SpearmanrResult(correlation=0.6413109893428297, pvalue=5.146768226491138e-41)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 9.181042458349122
+INFO:root:MAE 2.4056010231680687 Correlation SpearmanrResult(correlation=-0.6239713454285494, pvalue=2.6584503713718093e-38)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.8626101353977209
+INFO:root:MAE 0.6646334598424719 Correlation SpearmanrResult(correlation=0.5442389538433293, pvalue=1.0701939154424326e-11)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 3.522110964003753
+INFO:root:MAE 1.3776418420472252 Correlation SpearmanrResult(correlation=-0.4958456422141471, pvalue=1.1162690640956897e-09)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.5661315783761816
+INFO:root:Training loss epoch: 0.9094062093963102
+INFO:root:Training loss epoch: 0.3591492485807636
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.9049254934498228
+INFO:root:MAE 0.6478137329917902 Correlation SpearmanrResult(correlation=0.7749696503998167, pvalue=9.754400333772884e-70)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.9412476276139022
+INFO:root:MAE 0.6604809684471952 Correlation SpearmanrResult(correlation=0.774221350360871, pvalue=1.5980334617043373e-69)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7865358888617577
+INFO:root:MAE 0.5875459855644783 Correlation SpearmanrResult(correlation=0.6140481264784788, pvalue=3.027629476734155e-15)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.8009900544542885
+INFO:root:MAE 0.5901344735592381 Correlation SpearmanrResult(correlation=0.6133722561707327, pvalue=3.3090922491150423e-15)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.445029011366156
+INFO:root:Training loss epoch: 0.9397353083113278
+INFO:root:Training loss epoch: 0.3427121956372138
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.0710561950777073
+INFO:root:MAE 0.6727000901513673 Correlation SpearmanrResult(correlation=0.7585339085177417, pvalue=3.282063359677071e-65)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.1037006974866077
+INFO:root:MAE 0.6836290449960626 Correlation SpearmanrResult(correlation=0.7581643350274824, pvalue=4.1091518706809416e-65)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7919936007490224
+INFO:root:MAE 0.6151165914541082 Correlation SpearmanrResult(correlation=0.6138336436501903, pvalue=3.114326369210178e-15)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.7992976448203718
+INFO:root:MAE 0.6153063392822644 Correlation SpearmanrResult(correlation=0.6120329854871173, pvalue=3.944000438239863e-15)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.0372083633597615
+INFO:root:Training loss epoch: 2.1409767274282316
+INFO:root:Training loss epoch: 1.1066321712531988
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.4917817214333386
+INFO:root:MAE 0.8430345515881894 Correlation SpearmanrResult(correlation=0.6747790724562572, pvalue=8.878410304765264e-47)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.7386187565993638
+INFO:root:MAE 0.9230463422715054 Correlation SpearmanrResult(correlation=0.6716991433206251, pvalue=3.2381600090756497e-46)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.734256004037074
+INFO:root:MAE 0.592971393928877 Correlation SpearmanrResult(correlation=0.7362759047527827, pvalue=3.817840897145878e-24)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.8287255593506905
+INFO:root:MAE 0.6033856618138197 Correlation SpearmanrResult(correlation=0.73695676303328, pvalue=3.3004156699011943e-24)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.8079310141967174, pvalue=4.329928418846265e-80)
+INFO:root:RMSE 0.9467231754787799
+INFO:root:MAE 0.6349711400076165
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.5543432797233137, pvalue=6.058195908537227e-29)
+INFO:root:RMSE 1.5950879817986277
+INFO:root:MAE 1.1640982228412962
+INFO:root:Ensemble result for dataset myoglobin.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.7548087175087327, pvalue=6.124581617392435e-26)
+INFO:root:RMSE 0.8280579479149536
+INFO:root:MAE 0.5601123608495874
+INFO:root:Ensemble result for dataset myoglobin_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.5980417219208571, pvalue=2.3508157626255925e-14)
+INFO:root:RMSE 1.0671751992363596
+INFO:root:MAE 0.7202422627237445
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['S3421.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 3.362989238051323
+INFO:root:Training loss epoch: 1.5572964320074354
+INFO:root:Training loss epoch: 0.6848164732140695
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.7269791808495875
+INFO:root:MAE 0.5426595041321384 Correlation SpearmanrResult(correlation=0.8491614456964568, pvalue=2.7493098328870665e-96)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 5.5717402103048155
+INFO:root:MAE 1.7335409535345627 Correlation SpearmanrResult(correlation=-0.3030343794247828, pvalue=1.0741257941322298e-08)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.6482533263991227
+INFO:root:MAE 0.5404241736144272 Correlation SpearmanrResult(correlation=0.7347121752953771, pvalue=5.325316034105956e-24)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 1.7848703176378848
+INFO:root:MAE 0.9998647757430574 Correlation SpearmanrResult(correlation=-0.14765272237880286, pvalue=0.08865496958047547)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 4.028908939023946
+INFO:root:Training loss epoch: 2.479553017839579
+INFO:root:Training loss epoch: 1.836019270010961
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.336161399565937
+INFO:root:MAE 0.8438321700134472 Correlation SpearmanrResult(correlation=0.7132864394092575, pvalue=1.9892789935544612e-54)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 10.974433732845895
+INFO:root:MAE 2.578881552453801 Correlation SpearmanrResult(correlation=-0.6821136732590846, pvalue=3.8211953286644335e-48)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.8391331004551681
+INFO:root:MAE 0.650853770715532 Correlation SpearmanrResult(correlation=0.5743014656129729, pvalue=4.0167783322319267e-13)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 3.6555444523315304
+INFO:root:MAE 1.425742957407414 Correlation SpearmanrResult(correlation=-0.480432806413882, pvalue=4.236405686223796e-09)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 4.261689867983062
+INFO:root:Training loss epoch: 2.0939136100078692
+INFO:root:Training loss epoch: 1.0779985083299468
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.48582784895043624
+INFO:root:MAE 0.4495903918770147 Correlation SpearmanrResult(correlation=0.869315325312085, pvalue=4.370419121519831e-106)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.511332358707036
+INFO:root:MAE 0.46484957078004757 Correlation SpearmanrResult(correlation=0.8691372157981031, pvalue=5.421639188874864e-106)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.6912380085173467
+INFO:root:MAE 0.5825205372243342 Correlation SpearmanrResult(correlation=0.6563835452016993, pvalue=7.328097231932516e-18)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.7084831521863485
+INFO:root:MAE 0.5779338375623546 Correlation SpearmanrResult(correlation=0.654091571722663, pvalue=1.0406984155048608e-17)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 4.19780134996745
+INFO:root:Training loss epoch: 1.9761460430282076
+INFO:root:Training loss epoch: 0.9422335953791112
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.4696843485249609
+INFO:root:MAE 0.44284420000928404 Correlation SpearmanrResult(correlation=0.8850170219183385, pvalue=6.307828636994681e-115)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.4769330683684842
+INFO:root:MAE 0.4477839334350493 Correlation SpearmanrResult(correlation=0.884416671315607, pvalue=1.4492204745317022e-114)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.6866524620850384
+INFO:root:MAE 0.5502293345643513 Correlation SpearmanrResult(correlation=0.6974046331050587, pvalue=7.883741980193386e-21)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.6866535102093785
+INFO:root:MAE 0.5486979224378549 Correlation SpearmanrResult(correlation=0.6974919226281996, pvalue=7.7603967166177e-21)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 4.957498849799305
+INFO:root:Training loss epoch: 3.8776429832242787
+INFO:root:Training loss epoch: 2.3303241133478925
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.9009954026299538
+INFO:root:MAE 0.6705073560206819 Correlation SpearmanrResult(correlation=0.7717245160620833, pvalue=8.184462989132953e-69)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.0707667723408836
+INFO:root:MAE 0.7441759685269551 Correlation SpearmanrResult(correlation=0.7769711691925769, pvalue=2.5803749131783055e-70)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7770687453543251
+INFO:root:MAE 0.6270238916014335 Correlation SpearmanrResult(correlation=0.6448189303787495, pvalue=4.172848561548247e-17)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.9920823170803801
+INFO:root:MAE 0.6800358135239291 Correlation SpearmanrResult(correlation=0.6445745197139555, pvalue=4.325631125890479e-17)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.8793146665182883, pvalue=1.4208390673726308e-111)
+INFO:root:RMSE 0.7022562358443533
+INFO:root:MAE 0.4738730525393693
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.7119529438315336, pvalue=3.842360379919085e-54)
+INFO:root:RMSE 1.3818541564887479
+INFO:root:MAE 1.04175844199129
+INFO:root:Ensemble result for dataset myoglobin.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.784357468085034, pvalue=3.703284118061393e-29)
+INFO:root:RMSE 0.7967244370483795
+INFO:root:MAE 0.5365347752305887
+INFO:root:Ensemble result for dataset myoglobin_r.csv
+INFO:root:Correlation SpearmanrResult(correlation=0.551209645762705, pvalue=5.146374344302994e-12)
+INFO:root:RMSE 1.0728066376346874
+INFO:root:MAE 0.754184119063499
+INFO:root:*****************
+INFO:root:
