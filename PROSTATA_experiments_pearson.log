@@ -1,0 +1,859 @@
+INFO:root:Train on ['case_study_dimer_train.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.792348527286211
+INFO:root:Training loss epoch: 1.1188985166407621
+INFO:root:Training loss epoch: 0.6194452973705253
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 3.4493186325096676
+INFO:root:MAE 1.3049112583231814 Correlation (0.27928826729770706, 1.1413443474097893e-06)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.647987912278229
+INFO:root:Training loss epoch: 1.2575195532535755
+INFO:root:Training loss epoch: 0.5510696485030688
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 3.120702527939686
+INFO:root:MAE 1.2679178775826685 Correlation (0.36952343123278797, 6.069537788134887e-11)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.6173816366418365
+INFO:root:Training loss epoch: 0.8302225011539175
+INFO:root:Training loss epoch: 0.2839272682258036
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 3.172957381588709
+INFO:root:MAE 1.2461490979399152 Correlation (0.3766402582940928, 2.4214507534581433e-11)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.547235280184821
+INFO:root:Training loss epoch: 0.7789460466356911
+INFO:root:Training loss epoch: 0.23211918286913094
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 3.1757888274626174
+INFO:root:MAE 1.2620136942270965 Correlation (0.37593405757304965, 2.6552927022588837e-11)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.6097873684204025
+INFO:root:Training loss epoch: 1.9454990232535365
+INFO:root:Training loss epoch: 0.815180891179652
+INFO:root:Test on case_study_dimer_test.csv
+INFO:root:Validation Loss: 2.866147488301117
+INFO:root:MAE 1.215111357156745 Correlation (0.4367123931852954, 4.029285699801146e-15)
+INFO:root:
+INFO:root:Ensemble result for dataset case_study_dimer_test.csv
+INFO:root:Correlation (0.3880716411078207, 5.277356464081179e-12)
+INFO:root:RMSE 1.73245938606718
+INFO:root:MAE 1.2152124088491967
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['case_study_gem_train.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.942257188948065
+INFO:root:Training loss epoch: 1.152486804812459
+INFO:root:Training loss epoch: 0.6347939242554762
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.8439076161676342
+INFO:root:MAE 1.0016257453768354 Correlation (0.5752908459726248, 4.847934969050361e-35)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.657248238595124
+INFO:root:Training loss epoch: 1.351415781955239
+INFO:root:Training loss epoch: 0.5765663896756724
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.948523565888012
+INFO:root:MAE 0.9793990456172466 Correlation (0.5294730705874429, 5.483375343867569e-29)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.6784061223644597
+INFO:root:Training loss epoch: 0.8070654707196296
+INFO:root:Training loss epoch: 0.23995942522311484
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.6943244967872182
+INFO:root:MAE 0.8924538589799436 Correlation (0.6194199268772277, 7.603602914704288e-42)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.6177534433774214
+INFO:root:Training loss epoch: 0.7928731197855557
+INFO:root:Training loss epoch: 0.27769165704108006
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.6972137523227573
+INFO:root:MAE 0.9049375449058585 Correlation (0.6064832872282748, 9.693840219530712e-40)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.7250867306054127
+INFO:root:Training loss epoch: 2.198741206867778
+INFO:root:Training loss epoch: 0.9371997210750033
+INFO:root:Test on case_study_gem_test.csv
+INFO:root:Validation Loss: 1.9458537824466284
+INFO:root:MAE 1.00459214096099 Correlation (0.5078476056561403, 1.9483054893669673e-26)
+INFO:root:
+INFO:root:Ensemble result for dataset case_study_gem_test.csv
+INFO:root:Correlation (0.6021371767102714, 4.702965026313978e-39)
+INFO:root:RMSE 1.2895318614530995
+INFO:root:MAE 0.9050517313338388
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['case_study_transmembrane_train.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.696812529392313
+INFO:root:Training loss epoch: 1.115238121862153
+INFO:root:Training loss epoch: 0.6108917200265724
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 8.092078068240385
+INFO:root:MAE 1.6777801591782802 Correlation (0.20023809084155011, 0.025760168150043523)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.7518942666820063
+INFO:root:Training loss epoch: 1.3155478815978299
+INFO:root:Training loss epoch: 0.5411239017250895
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 7.69243751949813
+INFO:root:MAE 1.5607633857477097 Correlation (0.25790646253371474, 0.0038288375572256106)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.6843313401879008
+INFO:root:Training loss epoch: 0.8389593691047769
+INFO:root:Training loss epoch: 0.3239190263197491
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 6.890102899595572
+INFO:root:MAE 1.5609180020288593 Correlation (0.3707873936314177, 2.2429550012865834e-05)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.4084256835127564
+INFO:root:Training loss epoch: 0.72847197012787
+INFO:root:Training loss epoch: 0.24382073257506223
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 8.035653745842014
+INFO:root:MAE 1.584193661283221 Correlation (0.20831489036758497, 0.02024721252293209)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.4474151573485674
+INFO:root:Training loss epoch: 1.9315129522898804
+INFO:root:Training loss epoch: 0.8234996977511735
+INFO:root:Test on case_study_transmembrane_test.csv
+INFO:root:Validation Loss: 6.735976678649393
+INFO:root:MAE 1.5114331192997914 Correlation (0.3876270042523211, 8.671755383721098e-06)
+INFO:root:
+INFO:root:Ensemble result for dataset case_study_transmembrane_test.csv
+INFO:root:Correlation (0.29026571310947497, 0.001074596490996549)
+INFO:root:RMSE 2.7086568337422468
+INFO:root:MAE 1.5286597278720186
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['new_ds_for_ssym_plus_less_strict.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 3.167109858923134
+INFO:root:Training loss epoch: 1.364347888970815
+INFO:root:Training loss epoch: 0.7670924127403558
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 1.1770329356703153
+INFO:root:MAE 0.714202280135148 Correlation (0.7525797451473195, 1.765571915093437e-65)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 1.0901537517968956
+INFO:root:MAE 0.7050331791397184 Correlation (0.7733219099620265, 2.98474275766852e-71)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.4733670625645243
+INFO:root:Training loss epoch: 1.2373883246135151
+INFO:root:Training loss epoch: 0.5647745366448159
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 0.9821122230630408
+INFO:root:MAE 0.6183228494641795 Correlation (0.7998607568939842, 1.3361114044929481e-79)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 0.9655345449989159
+INFO:root:MAE 0.6106624639042738 Correlation (0.8029973770213158, 1.1374905419008176e-80)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.7358909110130045
+INFO:root:Training loss epoch: 0.8546950498645749
+INFO:root:Training loss epoch: 0.2576047797370682
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 0.9211575127299092
+INFO:root:MAE 0.613934414004854 Correlation (0.8137760573630242, 1.685856841211024e-84)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 0.9209364141757238
+INFO:root:MAE 0.614182519205232 Correlation (0.81376071576696, 1.707838885463749e-84)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.5407830849077664
+INFO:root:Training loss epoch: 0.7622640477875355
+INFO:root:Training loss epoch: 0.2524221155487138
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 0.8617354910371798
+INFO:root:MAE 0.573766558028927 Correlation (0.827933067655649, 6.326081068435323e-90)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 0.8584518078279136
+INFO:root:MAE 0.5753750488405455 Correlation (0.8279272310107273, 6.3602341112084645e-90)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.7161064873564067
+INFO:root:Training loss epoch: 2.1495657098128915
+INFO:root:Training loss epoch: 0.9835752738713117
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 1.2584074065001376
+INFO:root:MAE 0.7555205779089275 Correlation (0.7555035600099758, 2.9405660361064325e-66)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 1.2584474976584064
+INFO:root:MAE 0.7554688748152164 Correlation (0.7554900964336098, 2.9651095428326656e-66)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym_plus.csv
+INFO:root:Correlation (0.8256575624840012, 5.08332255418301e-89)
+INFO:root:RMSE 0.9338308699865342
+INFO:root:MAE 0.5845866146576802
+INFO:root:Ensemble result for dataset ssym_plus_r.csv
+INFO:root:Correlation (0.828504256095512, 3.731389584106355e-90)
+INFO:root:RMSE 0.925521482822158
+INFO:root:MAE 0.5788737714274084
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['new_ds_for_ssym_plus.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.7162437567855107
+INFO:root:Training loss epoch: 1.3041990904244445
+INFO:root:Training loss epoch: 0.7622003927079554
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.098034323014259
+INFO:root:MAE 1.0591623873915523 Correlation (0.49733598063339135, 2.1565250227839566e-23)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.150172771749179
+INFO:root:MAE 1.078615900446576 Correlation (0.48819031674302715, 1.763473957654528e-22)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.4285196412473113
+INFO:root:Training loss epoch: 1.4409211271982085
+INFO:root:Training loss epoch: 0.7263398169227387
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.6478140705882187
+INFO:root:MAE 1.1374121658207679 Correlation (0.41166357119736424, 7.882585493997824e-16)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.6629069254794753
+INFO:root:MAE 1.144694034666331 Correlation (0.412534310808643, 6.762054792704082e-16)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.636718951668129
+INFO:root:Training loss epoch: 0.8885945494702634
+INFO:root:Training loss epoch: 0.29690811275791756
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.2772363451327062
+INFO:root:MAE 1.069724516958972 Correlation (0.4827702384616392, 5.948737654550831e-22)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.2892064998001675
+INFO:root:MAE 1.0729541662995787 Correlation (0.4829310323430164, 5.739765874984409e-22)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.475440402874405
+INFO:root:Training loss epoch: 0.7994281080289138
+INFO:root:Training loss epoch: 0.25472837154636185
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.4608875346215253
+INFO:root:MAE 1.1260703920720103 Correlation (0.4347052987719266, 1.169068880054459e-17)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.441652917772175
+INFO:root:MAE 1.1211336964995346 Correlation (0.43473457377732216, 1.1625896863227264e-17)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.1355189142078554
+INFO:root:Training loss epoch: 1.844307077224151
+INFO:root:Training loss epoch: 0.953657001262783
+INFO:root:Test on ssym_plus.csv
+INFO:root:Validation Loss: 2.637710966278813
+INFO:root:MAE 1.1798691027453805 Correlation (0.5554787744941024, 6.912093641620753e-30)
+INFO:root:Test on ssym_plus_r.csv
+INFO:root:Validation Loss: 2.6050818618365614
+INFO:root:MAE 1.1705989208765624 Correlation (0.5550000833280748, 7.913785955296824e-30)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym_plus.csv
+INFO:root:Correlation (0.5103973197155488, 9.591275728473053e-25)
+INFO:root:RMSE 1.4906705779091156
+INFO:root:MAE 1.035333333815321
+INFO:root:Ensemble result for dataset ssym_plus_r.csv
+INFO:root:Correlation (0.5103006180431908, 9.819751128749654e-25)
+INFO:root:RMSE 1.4893850751741078
+INFO:root:MAE 1.0334488950283478
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['new_ds_for_s669.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.830068405922504
+INFO:root:Training loss epoch: 1.1998578620216631
+INFO:root:Training loss epoch: 0.6911810492087093
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.182238111628714
+INFO:root:MAE 1.0167584752661185 Correlation (0.4462242618047777, 4.7647367541799175e-34)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.212453210382495
+INFO:root:MAE 1.0222951282283517 Correlation (0.44612031321656975, 4.953505117234455e-34)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.697968192528893
+INFO:root:Training loss epoch: 1.378924154615712
+INFO:root:Training loss epoch: 0.6321163317504298
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.3481374875059657
+INFO:root:MAE 1.0587342962071367 Correlation (0.4090630336540393, 2.249175921006874e-28)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.3624308740369866
+INFO:root:MAE 1.0591534572292916 Correlation (0.4125203222138626, 7.136870483914451e-29)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.746435809109552
+INFO:root:Training loss epoch: 0.8528800166340408
+INFO:root:Training loss epoch: 0.3046597686352215
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.2611624419254714
+INFO:root:MAE 1.0419017219344697 Correlation (0.44067770752457963, 3.717918705093115e-33)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.261268519197885
+INFO:root:MAE 1.041952231999745 Correlation (0.440684960264881, 3.708035436490692e-33)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.5750466096955402
+INFO:root:Training loss epoch: 0.8059028127684811
+INFO:root:Training loss epoch: 0.26927894557105203
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1526038655880573
+INFO:root:MAE 0.9985511314502523 Correlation (0.46671697288610087, 1.7189787177789409e-37)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1509023417372575
+INFO:root:MAE 0.9981169364427638 Correlation (0.46669394087423055, 1.7348921700192957e-37)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.7879311946564562
+INFO:root:Training loss epoch: 2.3645020470095823
+INFO:root:Training loss epoch: 1.1062620045416576
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.213819641548519
+INFO:root:MAE 1.028538254319352 Correlation (0.4741209798306281, 8.567256362725515e-39)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1951460116116364
+INFO:root:MAE 1.024194355373325 Correlation (0.47410648676113415, 8.618317377187318e-39)
+INFO:root:
+INFO:root:Ensemble result for dataset s669.csv
+INFO:root:Correlation (0.4848658581282299, 9.663304639831551e-41)
+INFO:root:RMSE 1.4409840602545276
+INFO:root:MAE 0.9861976356643894
+INFO:root:Ensemble result for dataset s669_r.csv
+INFO:root:Correlation (0.48544177510820036, 7.564219912373216e-41)
+INFO:root:RMSE 1.4420518565460911
+INFO:root:MAE 0.9872116202963076
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['new_ds_for_ssym.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.9666339327839837
+INFO:root:Training loss epoch: 1.3931260434753983
+INFO:root:Training loss epoch: 0.6736305613380892
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.0998171306225486
+INFO:root:MAE 1.0521328163207972 Correlation (0.43317733339918774, 4.476047292780924e-17)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.129927867991723
+INFO:root:MAE 1.076564980463849 Correlation (0.40302559219751644, 8.66665327301255e-15)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.3864780184154326
+INFO:root:Training loss epoch: 1.4277235437501978
+INFO:root:Training loss epoch: 0.7016012110637696
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.3928443191368456
+INFO:root:MAE 1.1148288566945939 Correlation (0.4448078122622011, 5.079098748924232e-18)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.3805771691257127
+INFO:root:MAE 1.1127608919309244 Correlation (0.4427729371663828, 7.4777571863525e-18)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.5063521934488704
+INFO:root:Training loss epoch: 0.8464605426734092
+INFO:root:Training loss epoch: 0.2563925472121258
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.0856588746997904
+INFO:root:MAE 1.0291381564633975 Correlation (0.47064822223307096, 2.963949270734763e-20)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.0839966632268427
+INFO:root:MAE 1.0288020013395849 Correlation (0.47070480485586985, 2.929329679954081e-20)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.5440279979658564
+INFO:root:Training loss epoch: 0.7288659445694793
+INFO:root:Training loss epoch: 0.20902484370870664
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.2223999986192733
+INFO:root:MAE 1.0448117551900316 Correlation (0.43185284072644103, 5.704793522608506e-17)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.2050480200872387
+INFO:root:MAE 1.0406248407678036 Correlation (0.4317506405661199, 5.812318261766312e-17)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.2433590709596936
+INFO:root:Training loss epoch: 1.8146294445580216
+INFO:root:Training loss epoch: 0.8671928687555199
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.280769548665537
+INFO:root:MAE 1.0976105136224967 Correlation (0.528994472980614, 4.70594915934754e-26)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.300348530505321
+INFO:root:MAE 1.1029355915669046 Correlation (0.527263707635818, 7.264763708373317e-26)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation (0.49647280789277237, 1.1009950030472262e-22)
+INFO:root:RMSE 1.4168991339910937
+INFO:root:MAE 0.9909573654099558
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation (0.48880615581046066, 6.09298825040746e-22)
+INFO:root:RMSE 1.4137301203313462
+INFO:root:MAE 0.9860151923198951
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['S3488.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 4.033812151351711
+INFO:root:Training loss epoch: 2.1737104313671565
+INFO:root:Training loss epoch: 1.2518207833481636
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.0609284286615255
+INFO:root:MAE 1.0564447157738501 Correlation (0.4788034813679435, 5.328306234304089e-21)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.83781011171047
+INFO:root:MAE 1.0148295598507624 Correlation (0.5023625886333485, 2.8714600349173134e-23)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1926006905129287
+INFO:root:MAE 1.0392534703779157 Correlation (0.4677312129533895, 1.1448167016200466e-37)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1543632833969286
+INFO:root:MAE 1.031820882214804 Correlation (0.4580034141031991, 5.342648683388456e-36)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 4.750031283072453
+INFO:root:Training loss epoch: 3.2796890506844325
+INFO:root:Training loss epoch: 1.8935875863589156
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.49936307387711
+INFO:root:MAE 1.1248288188369302 Correlation (0.3835864838928976, 1.9691692249013715e-13)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.263881755602081
+INFO:root:MAE 1.066840450862172 Correlation (0.4306204274831516, 7.142458820251206e-17)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.4684182048983456
+INFO:root:MAE 1.1468331609422449 Correlation (0.3914567487207615, 6.336682066099215e-26)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.3799871707246725
+INFO:root:MAE 1.1127266023441682 Correlation (0.40930220882232365, 2.078373006092448e-28)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 3.8752607748111676
+INFO:root:Training loss epoch: 1.583978019964169
+INFO:root:Training loss epoch: 0.47038407724479475
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.293515645513067
+INFO:root:MAE 1.109023596181899 Correlation (0.4047591530770641, 6.493951167782742e-15)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.274011936402679
+INFO:root:MAE 1.1033680791155114 Correlation (0.4048123810765227, 6.4364869767567825e-15)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1905454535114046
+INFO:root:MAE 1.0385609789596946 Correlation (0.4620702218808446, 1.0877656289349763e-36)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1851373200659188
+INFO:root:MAE 1.0363339109788963 Correlation (0.4620752786529527, 1.085600523070348e-36)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 3.8308721894665614
+INFO:root:Training loss epoch: 1.3983412571157778
+INFO:root:Training loss epoch: 0.375113678839026
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.1800650685418876
+INFO:root:MAE 1.0730510098963149 Correlation (0.43346289732463494, 4.2473829895507106e-17)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.1577902930497608
+INFO:root:MAE 1.0665533144342882 Correlation (0.43351499520462905, 4.206921273558297e-17)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1761819864680505
+INFO:root:MAE 1.0299231720843278 Correlation (0.46418395330668044, 4.7160663020173714e-37)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.1681676360876248
+INFO:root:MAE 1.0277138196310567 Correlation (0.46410384156175166, 4.868357625501832e-37)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 4.400719024613904
+INFO:root:Training loss epoch: 3.1742065005723794
+INFO:root:Training loss epoch: 1.9996924009036587
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 2.373871848471637
+INFO:root:MAE 1.1102134026695936 Correlation (0.5308926832265934, 2.914599385536445e-26)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.3109929902497433
+INFO:root:MAE 1.0917976301610035 Correlation (0.5305900687379848, 3.146569525335274e-26)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.6059479169860476
+INFO:root:MAE 1.1465358916427857 Correlation (0.3957077181371152, 1.674018058902899e-26)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.55492055298178
+INFO:root:MAE 1.134188908412607 Correlation (0.39617912398646726, 1.4425559229057944e-26)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation (0.49689231664497546, 1.0013466308624306e-22)
+INFO:root:RMSE 1.438514858243401
+INFO:root:MAE 1.0236271893153546
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation (0.5101566885131047, 4.6569624213520315e-24)
+INFO:root:RMSE 1.3929068327532022
+INFO:root:MAE 0.9882246980323777
+INFO:root:Ensemble result for dataset s669.csv
+INFO:root:Correlation (0.49620297441907757, 7.1395099986802156e-43)
+INFO:root:RMSE 1.4534245616948425
+INFO:root:MAE 1.0194805416742114
+INFO:root:Ensemble result for dataset s669_r.csv
+INFO:root:Correlation (0.4938970670291269, 1.9664884103686363e-42)
+INFO:root:RMSE 1.4415534063204123
+INFO:root:MAE 1.0086419436245355
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['S2648.csv', 'ACDC_varibench.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 2.1340267697739077
+INFO:root:Training loss epoch: 0.9100958399206291
+INFO:root:Training loss epoch: 0.4305187615191167
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.7098401290525344
+INFO:root:MAE 0.5402795179305893 Correlation (0.8428968019898084, 1.5711514702052725e-93)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 5.3034440610009845
+INFO:root:MAE 1.6730348062565366 Correlation (-0.3602492068935431, 6.428745953205153e-12)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7805072412436912
+INFO:root:MAE 0.5826422775914865 Correlation (0.5866393180357576, 9.457408011624011e-14)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 2.02362511574202
+INFO:root:MAE 1.0684344315724004 Correlation (0.6342153121977913, 6.492405898842996e-06)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.206486480594035
+INFO:root:MAE 1.042881316799108 Correlation (0.42195439213089786, 2.9055876449096743e-30)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 4.179273181356139
+INFO:root:MAE 1.583915026234783 Correlation (0.1130421271095163, 0.003414133593643285)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.3011116969858274
+INFO:root:Training loss epoch: 1.636342671546577
+INFO:root:Training loss epoch: 1.1066395006883978
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.2715645077426254
+INFO:root:MAE 0.7967270655198055 Correlation (0.6862916156953165, 6.108785776355089e-49)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 9.045904936869235
+INFO:root:MAE 2.3797173931192583 Correlation (-0.6088346662059818, 4.5441606900680045e-36)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.8030321713755908
+INFO:root:MAE 0.6055369131378273 Correlation (0.5679437376632834, 8.268641877888276e-13)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 2.7716604625470826
+INFO:root:MAE 1.4299873637833767 Correlation (0.3937739355842408, 0.009876933133395438)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.444199780049
+INFO:root:MAE 1.1471187758812142 Correlation (0.29400439070960405, 8.332788004394467e-15)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 6.2681965277864595
+INFO:root:MAE 2.023146897245349 Correlation (-0.15269398709307996, 7.329603649203396e-05)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.76133878136517
+INFO:root:Training loss epoch: 1.1150475220359901
+INFO:root:Training loss epoch: 0.4917444549815388
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.5452016579930316
+INFO:root:MAE 0.4596834941876083 Correlation (0.8800236910059369, 5.559260986703316e-112)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.5760395649885308
+INFO:root:MAE 0.4773750307081997 Correlation (0.8806581482536979, 2.388661784445262e-112)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7545130958547246
+INFO:root:MAE 0.5893968372369436 Correlation (0.610473217985553, 4.833505306963661e-15)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 2.215030548089306
+INFO:root:MAE 1.0601096762832076 Correlation (0.6683863545231823, 1.3174548935127785e-06)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1473488833298227
+INFO:root:MAE 1.021167746384493 Correlation (0.4613497223266025, 1.4443600746917875e-36)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.190316152495193
+INFO:root:MAE 1.0316255075804144 Correlation (0.46067089971436664, 1.8854900950238187e-36)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.580898819140218
+INFO:root:Training loss epoch: 1.0036582142438732
+INFO:root:Training loss epoch: 0.5039969905313648
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.5625109916436847
+INFO:root:MAE 0.4508483278897335 Correlation (0.878798728376009, 2.802089454154378e-111)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.5968823032929652
+INFO:root:MAE 0.46818132073841773 Correlation (0.8788758111331596, 2.532229770134208e-111)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7541074865660015
+INFO:root:MAE 0.5634256282459889 Correlation (0.6057898330037185, 8.842507662578289e-15)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 2.149373411613862
+INFO:root:MAE 1.0504974319732614 Correlation (0.675638190144319, 9.143348092483165e-07)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.1343433507783174
+INFO:root:MAE 1.0063330059278037 Correlation (0.46779750742337944, 1.1147471698769356e-37)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.168871894182447
+INFO:root:MAE 1.0181948281546167 Correlation (0.4671751898576589, 1.4308312726238948e-37)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.474255394756785
+INFO:root:Training loss epoch: 2.550782215967978
+INFO:root:Training loss epoch: 1.4297498199380434
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.214626838851526
+INFO:root:MAE 0.7593927302272522 Correlation (0.7388835406798135, 2.978942320423311e-60)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.5488081219665992
+INFO:root:MAE 0.8772939701798802 Correlation (0.7366608090292566, 1.015629075179925e-59)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7239169644618048
+INFO:root:MAE 0.6127982807915602 Correlation (0.634378145097136, 1.8844482187683551e-16)
+INFO:root:Test on p53.csv
+INFO:root:Validation Loss: 4.665875981722603
+INFO:root:MAE 1.5922654052930219 Correlation (0.06587977223744657, 0.6784963890776894)
+INFO:root:Test on s669.csv
+INFO:root:Validation Loss: 2.3629022987204285
+INFO:root:MAE 1.109211143278844 Correlation (0.4043805669013032, 1.0422295623736149e-27)
+INFO:root:Test on s669_r.csv
+INFO:root:Validation Loss: 2.622758991973956
+INFO:root:MAE 1.1656019457453035 Correlation (0.4063830371709478, 5.425824636092732e-28)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation (0.8717490162868711, 2.2258901752300072e-107)
+INFO:root:RMSE 0.7868792077711662
+INFO:root:MAE 0.4856981103373854
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation (0.7707401327532731, 1.5495198383365673e-68)
+INFO:root:RMSE 1.4341642327460824
+INFO:root:MAE 1.059074629699452
+INFO:root:Ensemble result for dataset myoglobin.csv
+INFO:root:Correlation (0.6528041543526009, 1.2656590348447863e-17)
+INFO:root:RMSE 0.8301854500844946
+INFO:root:MAE 0.5481629553904284
+INFO:root:Ensemble result for dataset p53.csv
+INFO:root:Correlation (0.6650179083585681, 1.5557944086395152e-06)
+INFO:root:RMSE 1.503516457100274
+INFO:root:MAE 1.1364367282328505
+INFO:root:Ensemble result for dataset s669.csv
+INFO:root:Correlation (0.4910801841424821, 6.709462401773683e-42)
+INFO:root:RMSE 1.4334190110018978
+INFO:root:MAE 0.9995809403875974
+INFO:root:Ensemble result for dataset s669_r.csv
+INFO:root:Correlation (0.4365687728548376, 1.6624682311787128e-32)
+INFO:root:RMSE 1.6873767719731076
+INFO:root:MAE 1.2456386310982508
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['S2648.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 1.9886081348618985
+INFO:root:Training loss epoch: 0.8977735995299337
+INFO:root:Training loss epoch: 0.4691220615714146
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.0043730681661214
+INFO:root:MAE 0.6809552225409544 Correlation (0.7730346070946196, 3.482544069972908e-69)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 6.078561119327106
+INFO:root:MAE 1.8173096094781545 Correlation (-0.3475739133133568, 3.8045356127247916e-11)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.8200587953908627
+INFO:root:MAE 0.6486739686398364 Correlation (0.5641659683731542, 1.2606593063601647e-12)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 1.8924702557295547
+INFO:root:MAE 0.9991204583489183 Correlation (0.08042813578852223, 0.3555913789850431)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 2.0477683051839146
+INFO:root:Training loss epoch: 1.3461441193183028
+INFO:root:Training loss epoch: 0.9422442201327741
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.4518887623868622
+INFO:root:MAE 0.9256978396827366 Correlation (0.6741604706926767, 1.1527945291476532e-46)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 9.280645379860395
+INFO:root:MAE 2.3770957826827352 Correlation (-0.5634704601252326, 4.7850421695932784e-30)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 1.01158206660145
+INFO:root:MAE 0.7447694214199906 Correlation (0.4168821888570172, 5.426378941147521e-07)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 3.4516442516394465
+INFO:root:MAE 1.4040407099163354 Correlation (-0.35545936794904553, 2.501343638758558e-05)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 2.5157186347328238
+INFO:root:Training loss epoch: 0.9811033759091013
+INFO:root:Training loss epoch: 0.39692104652653876
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.9691743598256748
+INFO:root:MAE 0.6470986061201197 Correlation (0.7885648604290685, 8.794097904793494e-74)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.0535305530215977
+INFO:root:MAE 0.6839180883423192 Correlation (0.7881055840484076, 1.2180910441850267e-73)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7802759769845227
+INFO:root:MAE 0.6234069327448508 Correlation (0.5845240117457516, 1.2171494348673762e-13)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.7917258737036433
+INFO:root:MAE 0.6181625133908507 Correlation (0.5843301174196331, 1.2455120600637746e-13)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 2.489237201263137
+INFO:root:Training loss epoch: 0.9538787324314691
+INFO:root:Training loss epoch: 0.31200684283339164
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.9160562846137108
+INFO:root:MAE 0.6330744696383457 Correlation (0.7945289031302174, 1.1864144943579452e-75)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.9234943354981491
+INFO:root:MAE 0.6365865925190786 Correlation (0.7944288130973005, 1.2768160859980981e-75)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7283523011143432
+INFO:root:MAE 0.5921662599265353 Correlation (0.6210634527496366, 1.1881339384184876e-15)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.7276780609474394
+INFO:root:MAE 0.5913142917552657 Correlation (0.621040578403139, 1.1918087006132003e-15)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 3.0393982286043446
+INFO:root:Training loss epoch: 2.276931563832822
+INFO:root:Training loss epoch: 1.3985081837887856
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.856905653662735
+INFO:root:MAE 0.9550463710046967 Correlation (0.6317671463930685, 1.683275079276162e-39)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 2.212751778053763
+INFO:root:MAE 1.052877045623728 Correlation (0.6222966790225533, 4.76081270396999e-38)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7038091668750012
+INFO:root:MAE 0.6068180792673088 Correlation (0.647734724670737, 2.7103699889915824e-17)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.8332555791908722
+INFO:root:MAE 0.6396734552278093 Correlation (0.6476445480004239, 2.7469762682882892e-17)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation (0.8254148791438263, 1.955759178489234e-86)
+INFO:root:RMSE 0.9404349306849799
+INFO:root:MAE 0.6306032472623686
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation (0.6296249740522883, 3.6214220678180094e-39)
+INFO:root:RMSE 1.6437983337201925
+INFO:root:MAE 1.2077827181804268
+INFO:root:Ensemble result for dataset myoglobin.csv
+INFO:root:Correlation (0.6444574040639932, 4.4007600687414705e-17)
+INFO:root:RMSE 0.8494882658750256
+INFO:root:MAE 0.5991576409912598
+INFO:root:Ensemble result for dataset myoglobin_r.csv
+INFO:root:Correlation (0.636613533897323, 1.3712066259473532e-16)
+INFO:root:RMSE 1.051857418278866
+INFO:root:MAE 0.7366108538093803
+INFO:root:*****************
+INFO:root:
+INFO:root:Train on ['S3421.csv']
+INFO:root:Training model ESMForSingleMutationPosOuter
+INFO:root:Training loss epoch: 3.427144902403533
+INFO:root:Training loss epoch: 1.7614073373130077
+INFO:root:Training loss epoch: 0.9571725638278394
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.7251661052286715
+INFO:root:MAE 0.5865472353210575 Correlation (0.8436105784814878, 7.731117624033394e-94)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 7.068244061543732
+INFO:root:MAE 1.9869858926891932 Correlation (-0.5530349829789524, 8.661712906813052e-29)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.6645985511301605
+INFO:root:MAE 0.577314675577096 Correlation (0.6951763917713635, 1.1768640297686753e-20)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 1.6770182561846902
+INFO:root:MAE 0.942540736396366 Correlation (-0.11975336710100742, 0.16813434555286766)
+INFO:root:
+INFO:root:Training model ESMForSingleMutationPosConcat
+INFO:root:Training loss epoch: 3.751639015552381
+INFO:root:Training loss epoch: 2.4193875839030747
+INFO:root:Training loss epoch: 1.7680441170418943
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.2436896572289695
+INFO:root:MAE 0.8202973171763601 Correlation (0.7190151059985077, 1.126206182105029e-55)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 10.37028864607988
+INFO:root:MAE 2.453233464114499 Correlation (-0.6303027462297844, 2.8437322511962413e-39)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7614638934895864
+INFO:root:MAE 0.5952197654700991 Correlation (0.6316901758787605, 2.752576729853643e-16)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 3.0265626021250207
+INFO:root:MAE 1.2733722554881182 Correlation (-0.48623143727051893, 2.584877690526058e-09)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos_cat_cls
+INFO:root:Training loss epoch: 4.353205830028481
+INFO:root:Training loss epoch: 2.0649522040501984
+INFO:root:Training loss epoch: 1.038861349774727
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.5123584291955373
+INFO:root:MAE 0.4612786207587747 Correlation (0.8868749443076848, 4.6666147636412153e-116)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.5386614177138352
+INFO:root:MAE 0.4694237777887032 Correlation (0.8867040934073277, 5.940456400963848e-116)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.7288805369254662
+INFO:root:MAE 0.5804640829646542 Correlation (0.6205424170815195, 1.274638923433462e-15)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.7429029729004636
+INFO:root:MAE 0.5917252648566196 Correlation (0.6210823022079008, 1.185114066405777e-15)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_pos
+INFO:root:Training loss epoch: 4.179695048597157
+INFO:root:Training loss epoch: 2.018387726729481
+INFO:root:Training loss epoch: 0.9701063927505924
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 0.5070923108757982
+INFO:root:MAE 0.45231994053033014 Correlation (0.8890293764418098, 2.1506734975533127e-117)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 0.5142893357394996
+INFO:root:MAE 0.4541898109781289 Correlation (0.8890397276576616, 2.118785141908012e-117)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 0.8523411218618371
+INFO:root:MAE 0.6395737911338237 Correlation (0.5297421499642028, 4.6537122571075486e-11)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 0.8535828179071712
+INFO:root:MAE 0.644789644864513 Correlation (0.5309292790634451, 4.136754420721265e-11)
+INFO:root:
+INFO:root:Training model ESMForSingleMutation_cls
+INFO:root:Training loss epoch: 4.830100752950383
+INFO:root:Training loss epoch: 3.793607367586994
+INFO:root:Training loss epoch: 2.5365939974850873
+INFO:root:Test on ssym.csv
+INFO:root:Validation Loss: 1.2589212323650056
+INFO:root:MAE 0.803150861072 Correlation (0.7069277620802318, 4.441340090435988e-53)
+INFO:root:Test on ssym_r.csv
+INFO:root:Validation Loss: 1.5192632966451536
+INFO:root:MAE 0.8904782162696036 Correlation (0.7094193688980569, 1.3284092347006103e-53)
+INFO:root:Test on myoglobin.csv
+INFO:root:Validation Loss: 1.1256432277013841
+INFO:root:MAE 0.7337672134666745 Correlation (0.43647019532880105, 1.3493790045304713e-07)
+INFO:root:Test on myoglobin_r.csv
+INFO:root:Validation Loss: 1.3870336137314105
+INFO:root:MAE 0.8217184421703664 Correlation (0.43713275649801997, 1.2853383885672438e-07)
+INFO:root:
+INFO:root:Ensemble result for dataset ssym.csv
+INFO:root:Correlation (0.8833269067622243, 6.483281307333254e-114)
+INFO:root:RMSE 0.7383308662554755
+INFO:root:MAE 0.5071189648488111
+INFO:root:Ensemble result for dataset ssym_r.csv
+INFO:root:Correlation (0.7322561714707291, 1.1130029797732056e-58)
+INFO:root:RMSE 1.4788613281331415
+INFO:root:MAE 1.1141543805621
+INFO:root:Ensemble result for dataset myoglobin.csv
+INFO:root:Correlation (0.695023149664334, 1.2095786098994467e-20)
+INFO:root:RMSE 0.850484954542953
+INFO:root:MAE 0.5768283558564622
+INFO:root:Ensemble result for dataset myoglobin_r.csv
+INFO:root:Correlation (0.4797771601785981, 4.477204619092982e-09)
+INFO:root:RMSE 1.1097665860732757
+INFO:root:MAE 0.7823631496265975
+INFO:root:*****************
+INFO:root:
