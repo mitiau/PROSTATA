@@ -10,13 +10,14 @@ Folders:
 Notebooks:
 
 - 00.generate_datasets.ipynb - Process the DATA. folder and generate the DATASETS folder
-- 01.test_models_by_folds.ipynb - Test each individual model in the ensemble using5-fold cross validation
-- 02.test_models_on_other_datasets_ensemble.ipynb - test the PROSTATA ensemble on various combinations of train and test datasets. Output is logged to the PROSTATA_experiments_pearson.log
-- 03.train_final_ensemble.ipynb - train the ensemble on all data for the online tool.
+- 01.add_megadataset_and_split_on_train_test_sets.ipynb Expand dataset with megadatasets data. Split on train and test sets. Generate PROSTATA_EXPERIMENTS fold
+- 02.test_models_by_folds.ipynb - Test each individual model in the ensemble using5-fold cross validation
+- 03.test_models_on_other_datasets_ensemble.ipynb - test the PROSTATA ensemble on various combinations of train and test datasets. test_\*_with_predictions.csv containts tests set with prediction ("pred_ddg") column. 
+- 04.train_final_ensemble.ipynb - train the ensemble on all data for the online tool.
 - PROSTATA_tool.ipynb - Colab notebook for PROSTATA. Predict DDG Values for single mutation on user sequence.
 
 Other files:
 
-- PROSTATA_experiments_pearson.log - Logs of experiments run by 02.test_models_on_other_datasets_ensemble.ipynb notebook.
+- PROSTATA_experiments_pearson.log - Logs of experiments run by 03.test_models_on_other_datasets_ensemble.ipynb notebook.
 - LICENSE - Apache License 2.0
 - Readme.MD - This file
