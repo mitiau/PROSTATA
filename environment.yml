@@ -1,0 +1,19 @@
+name: prostata
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - jupyter
+  - pytorch
+  - pytorch-cuda=11.8
+  - pypdb
+  - biopython
+  - pandas
+  - scipy
+  - scikit-learn
+  - networkx
+  - matplotlib
+  - seaborn
+  - tqdm
